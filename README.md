@@ -11,6 +11,8 @@
 | 系统 | 13.6.1 黑苹果星球恢复镜像
 
 新bios会锁cfg lock，导致卡EB
+使用u盘 引导 bootx64.efi   先esc 再ctrl = 
+找到cpuSetup 修改0x44（此地址不同主板不同） 修改为00 ctrl w 保存 alt q退出
 参考此教程 BV1LV4y1N7jF
 <br />
 
